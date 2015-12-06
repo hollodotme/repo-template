@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "hollodotmet\\RepoTemplate\\": "src/"
+      "hollodotme\\RepoTemplate\\": "src/"
     }
   },
   "autoload-dev": {

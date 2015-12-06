@@ -6,7 +6,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "devops000"
   config.vm.box_url = "http://box.3wolt.de/devops000/"
   config.vm.box_check_update = true
-  config.vm.box_version = "~> 1.0.0"
+  config.vm.box_version = "~> 1.0.6"
 
   # network-config
   config.vm.network "public_network", type: "dhcp"
