@@ -1,6 +1,6 @@
 {
-  "name": "hollodotme/repo-templace",
-  "description": "description_text",
+  "name": "hollodotme/repo-template",
+  "description": "repo-template",
   "minimum-stability": "dev",
   "prefer-stable": true,
   "license": "MIT",
