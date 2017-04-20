@@ -1,9 +1,8 @@
-# Contributing
+# Contribution guide
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via pull requests on [GitHub](https://github.com/hollodotme/repo-template).
-
+We accept contributions via pull requests on [GitHub](https://github.com/PackageName).
 
 ## Pull Requests
 
@@ -20,6 +19,7 @@ We accept contributions via pull requests on [GitHub](https://github.com/hollodo
 - **Send coherent history** - Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please squash them before submitting.
 
 
-## Running Tests
+## Running the tests
 
-    $ php build/tools/phpunit.phar -c build
+	$ composer update
+    $ php vendor/bin/phpunit.phar -c build

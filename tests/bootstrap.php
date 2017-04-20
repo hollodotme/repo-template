@@ -3,6 +3,4 @@
  * @author hollodotme
  */
 
-namespace VendorName\ProjectName;
-
 require_once __DIR__ . '/../vendor/autoload.php';
