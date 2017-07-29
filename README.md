@@ -11,6 +11,10 @@ ProjectDescription
 
 ## Installation
 
+```bash
+composer require PackageName
+```
+
 ## Usage
 
 ## Contributing
