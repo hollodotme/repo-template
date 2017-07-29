@@ -1,0 +1,6 @@
+VendorName = "VendorName"
+ProjectName = "ProjectName"
+ProjectDescription = "Project description"
+PackageName = "vendor/package"
+ProjectDomain = "project-domain"
+ProjectIP = "192.168.3.13"
