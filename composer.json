@@ -41,7 +41,7 @@
 			"coveralls": {
 				"url": "https://github.com/php-coveralls/php-coveralls/releases/download/v2.1.0/php-coveralls.phar",
 				"only-dev": true
-			},
+			}
 		}
 	}
 }
