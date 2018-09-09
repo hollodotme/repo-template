@@ -24,7 +24,8 @@
 		}
 	},
 	"require-dev": {
-		"tm/tooly-composer-script": "^1.0",
+		"tm/tooly-composer-script": "~1.0",
+		"hollodotme/phpunit-testdox-markdown": "~1.0.0",
 		"roave/security-advisories": "dev-master"
 	},
 	"scripts": {
@@ -38,13 +39,9 @@
 				"only-dev": true
 			},
 			"coveralls": {
-				"url": "https://github.com/php-coveralls/php-coveralls/releases/download/v2.0.0/php-coveralls.phar",
+				"url": "https://github.com/php-coveralls/php-coveralls/releases/download/v2.1.0/php-coveralls.phar",
 				"only-dev": true
 			},
-			"phpmetrics": {
-				"url": "https://github.com/phpmetrics/PhpMetrics/releases/download/v2.3.2/phpmetrics.phar",
-				"only-dev": true
-			}
 		}
 	}
 }
