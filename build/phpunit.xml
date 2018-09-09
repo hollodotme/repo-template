@@ -2,13 +2,12 @@
         bootstrap="../tests/bootstrap.php"
         verbose="true"
         beStrictAboutOutputDuringTests="true"
-        beStrictAboutTestSize="true"
         colors="true"
         convertErrorsToExceptions="true"
         convertNoticesToExceptions="true"
         convertWarningsToExceptions="true">
     <testsuites>
-        <testsuite name="ProjectName">
+        <testsuite name="Unit">
             <directory suffix="Test.php">../tests/Unit</directory>
         </testsuite>
     </testsuites>
@@ -17,9 +16,13 @@
             <directory suffix=".php">../src</directory>
         </whitelist>
     </filter>
-    <logging>
-        <log type="coverage-html" target="logs/coverage"/>
-        <log type="coverage-clover" target="logs/clover.xml"/>
-        <log type="coverage-text" target="php://stdout" showUncoveredFiles="true"/>
-    </logging>
+    <listeners>
+        <listener class="hollodotme\PHPUnit\TestListeners\TestDox\Markdown">
+            <arguments>
+                <string>Development</string>
+                <string>build/logs/TestDox.md</string>
+                <string>VendorName\ProjectName\Tests</string>
+            </arguments>
+        </listener>
+    </listeners>
 </phpunit>
